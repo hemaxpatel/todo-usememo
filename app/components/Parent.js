@@ -37,7 +37,7 @@ export default function Parent() {
     <div
       className={`p-8 border-2 rounded-lg shadow-lg transition-colors duration-300 ${
         theme === "light"
-          ? "bg-white border-blue-300"
+          ? "bg-white border-blue-300 text-gray-800"
           : "bg-gray-800 border-gray-600 text-white"
       }`}
     >
